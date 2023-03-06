@@ -45,7 +45,7 @@ function Drawer({ color,setVisible,renderCard,setRenderCard,setProgress,progress
         border: "2px solid",
       }}
     >
-      <h1>Creative Section</h1>
+      <h1>Creative Creation</h1>
       <form onSubmit={(e) => {handleSubmit(e)}}>
         <div>
           <div style={{ margin: "10px 30px", height: "80px",textAlign:"left" }}>
