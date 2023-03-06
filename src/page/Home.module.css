@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    /* float: left; */
+}
+
+.header {
+text-align: left;
+margin: 30px;
+}
+.button{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+    margin: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    font-weight: 600;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
